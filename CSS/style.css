@@ -7,6 +7,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::selection {
+    background-color: #f5a4a1; 
+    color: #000; 
+}
+
+p::selection {
+    background-color: #f5a4a1; 
+    color: #000; 
+}
+
 .content-principal {
     height: 100vh;
     width: 100%;
