@@ -1,0 +1,776 @@
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 30px 100px;
+    }
+
+    .portifolio {
+        font-size: 50px;
+    }
+
+    ul li a {
+        font-size: 24px;
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 200px;
+        margin-right: 200px;
+        gap: 50px;
+    }
+
+    .card {
+        height: 410px;
+        width: 380px;
+    }
+
+    .botao {
+        border: 1px solid #ffffff !important;
+    }
+
+    .card a {
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+
+    footer h2 {
+        font-size: 40px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .social img {
+        height: 32px;
+    }
+
+    .direitos {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    nav {
+        padding: 20px 40px;
+    }
+
+    .portifolio {
+        font-size: 36px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
+    ul li {
+        margin-right: 20px;
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 30px;
+    }
+
+    .botao {
+        border: 1px solid #ffffff !important;
+    }
+
+    .card a {
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+    .card {
+        height: 410px;
+        width: 320px;
+    }
+
+    .titulo-principal {
+        font-size: 26px;
+    }
+
+    footer h2 {
+        font-size: 32px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .social img {
+        height: 30px;
+    }
+
+    .direitos {
+        font-size: 14px;
+    }
+
+    .seta {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    nav {
+        padding: 20px 30px;
+    }
+
+    .portifolio {
+        font-size: 32px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    ul li {
+        margin-right: 15px;
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 30px;
+    }
+
+    .card {
+        height: 480px;
+        width: 420px;
+    }
+
+    .botao {
+        border: 1px solid #ffffff !important;
+    }
+
+    .card a {
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+    .titulo-principal {
+        font-size: 24px;
+    }
+
+    footer h2 {
+        font-size: 28px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .social img {
+        height: 30px;
+    }
+
+    .direitos {
+        font-size: 14px;
+    }
+
+    .seta {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 25px;
+    }
+
+    .brasil-img img {
+        height: 45px;
+    }
+
+    .card a {
+        font-size: 14px;
+        padding: 10px 14px;
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    ul li {
+        margin-right: 10px;
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 180px;
+        margin-right: 180px;
+        gap: 35px;
+    }
+
+    .card {
+        height: 390px;
+        width: 380px;
+    }
+
+    .botao {
+        border: 1px solid #ffffff !important;
+    }
+
+    .titulo-principal {
+        font-size: 30px;
+        margin-top: -800px;
+    }
+
+    .card h5 {
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .card img {
+        height: 70px;
+    }
+
+    .card p {
+        color: #e7b8b6;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    footer h2 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .social img {
+        height: 27px;
+    }
+
+    .direitos {
+        font-size: 15px;
+    }
+
+    .seta {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 1140px) and (min-width: 1080px){
+    nav {
+        padding: 10px 20px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 25px;
+    }
+
+    .brasil-img img {
+        height: 45px;
+    }
+
+    .card a {
+        font-size: 14px;
+        padding: 10px 14px;
+        margin-left: 5px;
+        border-radius: 25px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    ul li {
+        margin-right: 10px;
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 180px;
+        margin-right: 180px;
+        gap: 35px;
+    }
+
+    .card {
+        height: 390px;
+        width: 380px;
+    }
+
+    .botao {
+        border: 1px solid #ffffff !important;
+    }
+
+    .titulo-principal {
+        font-size: 30px;
+        margin-top: -80px;
+    }
+
+    .card h5 {
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .card img {
+        height: 90px;
+    }
+
+    .card p {
+        color: #e7b8b6;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    footer h2 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    .social img {
+        height: 27px;
+    }
+
+    .direitos {
+        font-size: 15px;
+    }
+
+    .seta {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .titulo-principal {
+        font-size: 30px;
+        margin-top: -150px;
+    }
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 35px;
+    }
+
+    .card {
+        height: 370px;
+        width: 350px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .titulo-principal {
+        font-size: 30px;
+        margin-top: -118px;
+    }
+
+    li{
+        font-size: 20px;
+    }
+
+    .brasil-img img {
+        height: 36px;
+    }
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 35px;
+    }
+
+    footer h2 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .social img {
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .titulo-principal {
+        font-size: 25px;
+        margin-top: -80px;
+    }
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 80px;
+        margin-right: 130px;
+        gap: 35px;
+    }
+
+    .portifolio {
+        font-size: 25px;
+    }
+
+    .card {
+        height: 370px;
+        width: 350px;
+        padding: 15px;
+    }
+
+    .seta {
+        height: 40px;
+        width: 40px;
+        left: 90%;
+    }
+}
+
+@media screen and (max-width: 854px){
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 60px;
+        margin-right: 150px;
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 821px){
+    .card-projeto {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 40px;
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .icons {
+        display: inline-flex;
+        z-index: 100;
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(24px);
+        box-shadow: 4px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        z-index: 10;
+        transition: 1.5s ease;
+    }
+
+    #check:checked ~ .menu{
+        height: 35%;
+    }
+
+    .menu li{
+        display: block ;
+        font-size: 22px;
+        margin: 8px;
+        transform: translateY(-50px);
+        transition: 1.5s ease;
+    }
+
+    .menu li a {
+        transform: translateY(-50px);
+        transition: transform 1.5s ease;
+    }
+
+    #check:checked ~ .menu li a{
+        transform: translateY(0);
+        transition-delay: calc(.15s * var(--i));
+    }
+
+    .card-projeto {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 35px;
+    }
+
+    .card {
+        height: auto;
+        width: 280px;
+        padding: 20px;
+    }
+
+    .menu .brasil-img {
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .brasil-img img {
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 431px) {
+    nav {
+        padding: 10px 15px;
+    }
+
+    .portifolio {
+        font-size: 24px;
+    }
+
+    .titulo-principal {
+        font-size: 25px;
+        margin-top: -60px;
+    }
+
+    .icons {
+        font-size: 28px;
+     }
+
+    ul li {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 85px;
+        gap: 30px;
+    }
+
+    .card {
+        height: auto;
+        width: 280px;
+        padding: 20px;
+    }
+
+    .card img {
+        height: 80px;
+    }
+
+    .card h5 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .botao {
+        font-size: 12px !important;
+        padding: 8px 5px !important;
+        width: auto !important; 
+    }
+
+    .card a{
+        font-size: 12px !important;
+        padding: 8px 10px !important;
+        width: auto !important; 
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .social img {
+        height: 20px;
+    }
+
+    .direitos {
+        font-size: 12px;
+    }
+
+    .seta {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 431px){
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 70px;
+        gap: 30px;
+    }
+
+    .seta {
+        height: 35px;
+        width: 35px;
+        left: 87%; 
+    }
+}
+
+@media screen and (max-width: 391px){
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .card {
+        height: auto;
+        width: 75%;   
+        padding: 20px;
+    }
+
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        gap: 30px;
+    }
+
+    .card a {
+        font-size: 14px;    
+        padding: 8px 10px;  
+    }
+
+    .seta {
+        height: 33px;
+        width: 33px;
+        left: 87%; 
+    }
+}
+
+@media screen and (max-width: 361px){
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+
+    .card {
+        height: auto;
+        width: 75%;   
+        padding: 20px;
+    }
+
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        gap: 30px;
+    }
+
+    .card a {
+        font-size: 14px;    
+        padding: 8px 10px;  
+    }
+
+    .seta {
+        height: 33px;
+        width: 33px;
+        left: 87%; 
+    }
+
+}
+
+@media screen and (max-width: 345px) {
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+    }
+
+    .titulo-principal {
+        font-size: 25px;
+        margin-top: -70px;
+    }
+
+    .card {
+        height: auto;
+        width: 80%;   
+        padding: 20px;
+    }
+
+    .card-projeto {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        gap: 30px;
+    }
+
+    .card a {
+        font-size: 14px;    
+        padding: 8px 10px;  
+    }
+
+    .seta {
+        height: 35px;
+        width: 35px;
+        left: 90%; 
+    }
+
+    footer h2 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    .direitos {
+        font-size: 13px;
+    }
+
+    .seta {
+        height: 25px;
+        width: 25px;
+    }
+}
+

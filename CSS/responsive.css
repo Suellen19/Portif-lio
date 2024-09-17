@@ -1,0 +1,313 @@
+@media screen and (max-width: 1024px) {
+    .content-principal {
+       background-position: bottom 40px right 70px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .portifolio {
+        font-size: 32px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    .meu-nome {
+        top: 35%;
+        left: 5%;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    section div h2 {
+        font-size: 32px;
+    }
+
+    section div p {
+        font-size: 18px;
+    }
+
+    footer h4 {
+        font-size: 28px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-principal {
+        background-position: bottom 10px right 90px;
+        background-size: 80% auto;
+     }
+    nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    li {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .container {
+        padding: 50px; 
+        gap: 20px; 
+        flex-direction: column; 
+        align-items: center;  
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    section div h2 {
+        font-size: 28px;
+    }
+
+    section div p {
+        font-size: 16px;
+    }
+
+    .portifolio {
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }
+
+    .brasil-img img {
+        height: 30px;
+        margin-left: 5px; 
+        height: 35px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section img{
+        height: 210px;
+    }
+
+    .container-habilidades {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .container-habilidades div {
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+    }
+
+    .container-habilidades img {
+        height: 80px;
+    }
+
+    .container-habilidades h2 {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    .habilidade {
+        font-size: 30px;
+    }
+
+    .icons {
+        display: inline-flex;
+        z-index: 100;
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(35px);
+        box-shadow: 4px 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        z-index: 10;
+        transition: 0.5s ease;
+    }
+
+    #check:checked ~ .menu{
+        height: 65%;
+    }
+
+    .menu li{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin: 8px;
+        transform: translateY(-50px);
+        transition: 1.5s ease;
+    }
+
+    .menu li a {
+        transform: translateY(-50px);
+        transition: transform 1.5s ease;
+    }
+
+    #check:checked ~ .menu li a{
+        transform: translateY(0);
+        transition-delay: calc(.15s * var(--i));
+    }
+
+    .menu .brasil-img {
+        margin-top: 20px;
+        margin-right: 25px;
+       
+    }
+
+    footer h4 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-principal {
+        background-position: bottom -30px right 60px;
+        background-size: 80% auto;
+     }
+
+    nav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .portifolio {
+        font-size: 24px;
+    }
+
+    li {
+        font-size: 14px;
+        margin-right: 1px
+    }
+
+    .meu-nome {
+        left: 10%;
+        top: 30%;
+    }
+
+    .container {
+        padding: 20px; 
+    }
+
+    .email, .git , .contato {
+        font-size: 14px; 
+    }
+
+    section img {
+        height: 200px;
+    }
+
+    section div h2 {
+        font-size: 24px;
+    }
+
+    section div p {
+        font-size: 14px;
+    }
+
+    section div button {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .projetos h2 {
+        font-size: 36px;
+    }
+
+    .social a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .habilidade {
+        font-size: 24px;
+    }
+
+    .container-habilidades {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .container-habilidades {
+        flex-direction: column;
+    }
+
+    .container-habilidades div {
+        height: 180px;
+        width: 180px;
+        margin: 10px;
+    }
+
+    .container-habilidades img {
+        height: 60px;
+    }
+
+
+    .container-habilidades h2 {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    footer h2 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+
+    .social img {
+        height: 20px;
+    }
+
+    .seta {
+        height: 35px;
+        width: 35px;
+    }
+
+    .icons {
+        font-size: 30px;
+     }
+}

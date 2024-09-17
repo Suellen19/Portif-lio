@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <script src="https://kit.fontawesome.com/1612ab1201.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/web.icon.png">
+    <title>Portifolio</title>
+</head>
+
+<body>
+
+    <div id="loader" class="loader">
+        <div class="spinner"></div> 
+        <p class="direitos" data-en="&copy; 2024 All rights reserved."
+           data-pt="&copy; 2024 Todos os direitos reservados.">&copy; 2024 Todos os direitos reservados.</p>
+    </div>
+    
+    <div class="content-principal">
+        <nav>
+            <h1 class="portifolio">Portifo<span>lio</span></h1>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+             <i class="fa-solid fa-bars" id="menu-icon"   style="color: #ffffff;"></i>
+             <i class="fa-solid fa-x"  id="close-icon"  style="color: #ffffff;"></i>
+            </label>
+
+            <ul class="menu">
+                <li><a href="#" data-en="About" data-pt="Sobre" style="--i:1;" onclick="scrollToSection()">Sobre</a></li>
+                <li><a href="index2.html" target="_self" data-en="Projects" data-pt="Projetos" style="--i:2;">Projetos</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" style="--i:3;">CV</a>
+                    <div class="brasil-img">
+                        <img src="img/brazil (2).png" alt="imagem-brasil" id="brazil-img" onclick="trocarImagem()">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-seta">
+            <div class="seta"><i class="fa-solid fa-arrow-up" style="color: #ff665d;"></i></div>
+        </div>
+    </div>
+
+
+    <div class="meu-nome">
+        <h1>Suellen <span>Silva</span></h1>
+        <h3 data-en="Front End Developer" data-pt="Programador Front End">Programador Front End</h3>
+    </div>
+    
+    <section id="about-section">
+        <img src="img/tec.png" alt="computador">
+        <div>
+            <h2 data-en="About Me" data-pt="Sobre Mim">Sobre Mim</h2>
+            <p data-en="I study Software Engineering, and I have developed projects using HTML, CSS, and JavaScript (ES6). In addition, I am improving my skills in creating efficient and intuitive interfaces."
+                data-pt="Estudo engenharia de Software, já desenvolvi projetos utilizando HTML, CSS E JavaScript (ES6). Além de aprimorar minhas habilidades na criação de interfaces eficientes e intuitivas.">
+                Estudo engenharia de Software, já desenvolvi projetos utilizando HTML, CSS E JavaScript (ES6). Além de
+                aprimorar minhas habilidades na criação de interfaces eficientes e intuitivas.
+            </p>
+            <button class="container-botao"><a href="https://wa.me/5511987120906?text=Entre%20em%20contato%20%3A" target="-blank" data-en="Contact Me"
+                    data-pt="Entre em Contato">Entre em Contato</a></button>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="container-text">
+            <h3 data-en="Name" data-pt="Nome">Nome</h3>
+            <h4>Suellen Leticia Lima da Silva</h4>
+        </div>
+
+        <div class="container-text">
+            <h3 data-en="Email Address" data-pt="Endereço de E-mail">Endereço de E-mail</h3>
+            <a href="mailto:suellen2000le19@gmail.com" class="email" target="_blank">suellen2000le19@gmail.com</a>
+        </div>
+
+        <div class="container-text">
+            <h3 data-en="GitHub" data-pt="GitHub">GitHub</h3>
+            <a href="https://github.com/Suellen19" class="git" target="_blank">Suellen19</a>
+        </div>
+
+        <div class="container-text">
+            <h3 data-en="Contact" data-pt="Contato">Contato</h3>
+            <a href="https://wa.me/5511987120906?text=Entre%20em%20contato%20%3A" class="contato" target="_blank">(11)98712-0906</a>
+        </div>
+    </div>
+
+    <section class="container-habilidades">
+        <h1 class="habilidade" data-en="My Skills" data-pt="Minhas Habilidades">Minhas Habilidades</h1>
+
+        <div>
+            <img src="img/html.png" alt="Imagem-HTML">
+            <h2>HTML</h2>
+        </div>
+
+        <div>
+            <img src="img/css.png" alt="Imagem-CSS">
+            <h2>CSS</h2>
+        </div>
+
+        <div>
+            <img src="img/java.png" alt="Imagem-Java">
+            <h2>JavaScript</h2>
+        </div>
+
+        <div>
+            <img src="img/react.png" alt="Imagem-React">
+            <h2>React</h2>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Suellen Silva</h2>
+        <p data-en="For more information" data-pt="Para mais Informações">Para mais Informações</p>
+
+
+        <div class="social">
+            <a href="www.linkedin.com/in/suellen-leticia-lima-da-silva"><img src="img/linkedin.png" alt="linkedin"
+                    target="-blank"></a>
+            <a href="https://wa.me/5511987120906?text=Entre%20em%20contato%20%3A"><img src="img/whatsapp.png" alt="telefone" target="-blank"></a>
+        </div>
+
+        <p class="direitos" data-en="&copy; 2024 All rights reserved."
+            data-pt="&copy; 2024 Todos os direitos reservados.">&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
